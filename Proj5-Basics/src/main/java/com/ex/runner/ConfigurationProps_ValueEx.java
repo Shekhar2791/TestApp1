@@ -19,6 +19,14 @@ public class ConfigurationProps_ValueEx implements CommandLineRunner{
 		// TODO Auto-generated constructor stub
 	}
 
+	public ConfigurationProps_ValueEx(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+
+
 	public int getId() {
 		return id;
 	}
