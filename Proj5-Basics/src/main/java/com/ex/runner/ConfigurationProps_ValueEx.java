@@ -25,8 +25,6 @@ public class ConfigurationProps_ValueEx implements CommandLineRunner{
 		this.name = name;
 	}
 
-
-
 	public int getId() {
 		return id;
 	}
